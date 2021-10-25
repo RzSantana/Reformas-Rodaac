@@ -7,293 +7,458 @@ body{
 }
 
 .consulta{
-
-  width:100vw;
-  height: 15vh;
-  background-color: #FFFFFF ;
-  
-
-}
-
-#experienciaConsulta{
-
+    margin: 0.625em 0 0 0;
     width: 100%;
-    height:50%;
+    height: 15vh;
+    background-color: #FFFFFF ;
+    
+  
+}
+  
+#experienciaConsulta{
+  
+    width: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+  
+}
+  
+#telconsulta{
+
+display: none;
 
 }
 
 #telefonoConsultas{
-    
+      
     width: 100%;
     height:50%;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: start;  
     
+}
   
-}
-
 #telefonoConsultas > a{
-
-  color: #ffffff;
-  text-decoration: none;
-  background-color: #000000;
-  border-radius: 5px;
-  width: 19em;
-  height: 4.5em;
-  font-size: 2.5vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
- 
-
-    
+  
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 5px;
+    width: 19em;
+    height: 4.5em;
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+      
 }
-
+  
 #experienciaConsulta > p{
-
+  
     font-size: 3.5vw;
     font-weight: bold;
+    font-style: normal;
+    font-weight: 500;
 
 }
 
 #serviciosarea{
 
-  margin-top: 15px;
-  margin-bottom: 15px;
-  
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
 }
-
+  
 #sdiv{
+    
+    display: grid;
+    grid-template-columns: 40vw 40vw ;
+    grid-template-rows:40vw 40vw 40vw 40vw;
+    row-gap: 18px;
+    column-gap: 18px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
   
-  display: grid;
-  grid-template-columns: minmax(150px, 18vw) minmax(150px, 18vw) ;
-  grid-template-rows:minmax(150px, 18vw) minmax(150px, 18vw) minmax(150px, 18vw) minmax(150px, 18vw);
-  row-gap: 15px;
-  column-gap: 15px;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-
 }
-
-
-
+  
 #servicios{
-
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 15px;
-
+  
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  
 }
-
+  
 #servicios h1{
-
-  font-size: 2.9vw;
-  color: white;
+  
+    font-size: 1rem;
+    color: white;
 }
-
-
+  
+  
 .svc{
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  filter: brightness(80%);
- 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.185);
+   
 }
-
+  
 .svc a{
-
-  color: white;
-  font-weight: bold;
-  font-size: 2.5vw;
-
+  
+    color: #ffffff;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    text-decoration: none;
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
 }
-
-.svc a:hover{
-
-  color: white;
-  font-weight: bold;
-  font-size: 3vw;
-  position: relative; right: -5px; top: -5px;
-
-}
-
-.svc:hover{
-
-  filter: brightness(120%);
-}
-
+  
 #pladur{
-
-  background-image: url(./pladur.jpg); background-size: cover;
-
+  
+    background-image: url(./pladur.jpg); 
+    background-size: cover;
+    background-position:center;
 }
-
+  
 #construccion{
 
-  background-image: url(./chimenea.jpg); background-size:cover;
-
+    background-image: url('../img/construccion.png'); 
+    background-size:cover;
+    background-position:center;
 }
-
+  
 #enlucido{
-
-  background-image: url(./enlucir.jpg); background-size:cover;
-
+  
+  background-image: url('../img/enlucido.png');
+  background-size:cover;
+  background-position:center;
+  
 }
 
 #montaje{
-
-  background-image: url(./montaje.jpg); background-size:cover;
-
+  
+  
+  background-image: url(./montaje.jpg); 
+  background-size:cover;
+  background-position:center;
+  
 }
 
 #fontaneria{
-
-  background-image: url(./fontaneria.jpg); background-size:cover;
-
+  
+  background-image: url('../img/fontaneria.png'); 
+  background-size:cover;
+  background-position:center;
+  
 }
 
 #pintura{
-
-  background-image: url(./pintura.jpg); background-size:cover;
-
+  
+  background-image: url('../img/pintura.png');
+  background-size:cover;
+  background-position:center;
+  
 }
-
+  
 #chapado{
-
-  background-image: url(./chapado.jpg); background-size:cover;
-
+  
+    background-image: url(./chapado.jpg); 
+    background-size:cover;
+    background-position:center;
 }
-
+  
 #otros{
-
-  background-image: url(./barnizado.jpg); background-size:cover;
-
+  
+    background-image: url(./barnizado.jpg); 
+    background-size:cover;
+    background-position:center;
 }
 
 
 #enlaceservicios{
 
-  width: 100%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  
 }
-
-
-
+  
 #enlaceservicios > a{
-
-  color: #000000;
-  text-decoration: none;
-  background-color: #FFFFFF;
-  border-radius: 5px;
-  width: 19em;
-  height: 4.5em;
-  font-size: 2.5vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 11rem;
+    height: 4.5em;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
 }
 
 #sobrenosotrosarea{
 
-  justify-content: center;
-  justify-items: center;
-  background-color: #31303A;
-  width: 100vw;
-  height: auto;
-  padding-bottom: 25px;
-
-}
-
-#sobrenosotrosarea > div{
-
-width: 100%;
-display: flex;
-justify-content: center;
-text-align: center;
-
-}
-
-#sobrenosotrostitle{
-
-padding-top: 20px;
-margin-bottom: 20px;
-
-}
-
-
-#sobrenosotrostitle > p{
-
-  color: #ffffff;
-
-}
-
-#sobrenosotrostext > p{
-
-  color: #ffffff;
-  font-size: 0.6rem;
-  width: 70%;
-
-}
-
-#sobrenosotrosimg > img{
-
-  margin-top: 20px ;
-  width: 70vw;
-  height: 40vw;
+    justify-content: center;
+    justify-items: center;
+    background-color: #31303A;
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
   
 }
-
-footer{
-
-  width: 100vw;
-  height: 7vh;
-  justify-content: center;
-  justify-items: center;
-  padding-bottom: 5px;
-  padding-top: 5px;
-
-}
-
-footer > div{
-
-  height: 50%; width: 100%;
-  justify-items: center;
+  
+#sobrenosotrosarea > div{
+  
+  width: 100%;
+  display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 0.8rem;
-  color: #ffffff;
   
 }
-
+  
+#sobrenosotrostitle{
+  
+  padding-top: 20px;
+  margin-bottom: 20px;
+  
+}
+  
+  
+#sobrenosotrostitle > p{
+  
+    color: #ffffff;
+  
+}
+  
+#sobrenosotrostext > p{
+  
+    color: #ffffff;
+    font-size: 0.6em;
+    width: 70%;
+  
+}
+  
+#sobrenosotrosimg > img{
+  
+    margin-top: 20px ;
+    width: 70vw;
+    height: 40vw;
+    
+}
+  
+footer{
+  
+    width: 100%;
+    height: 7vh;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  
+}
+  
+footer > div{
+  
+    height: 50%; width: 100%;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #ffffff;
+    
+}
+  
 #creditos1{
-
-  display: flex;
-  align-items: center;
-
+  
+    display: flex;
+    align-items: center;
+  
 }
-
+  
 #creditos2{
+  
+    display: flex;
+    align-items: start;
+  
+}
+  
+  
 
-  display: flex;
-  align-items: start;
+
+@media (min-width: 600px){
+
+    #sdiv{
+    
+        display: grid;
+        grid-template-columns: 15vw 15vw 15vw 15vw ;
+        grid-template-rows:15vw 15vw;
+        row-gap: 5vw;
+        column-gap: 5vw;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin-top: 5vw;
+      
+    }
+
+    .svc a{
+
+        font-size: 1.5vw;
+
+    }
+
+    .svc:hover a{
+
+        font-size: 1.7rem;
+    
+    }
+    
+    .svc:hover{
+    
+        filter: brightness(120%);
+    
+    }
+
+    #servicios h1{
+
+        font-size: 2vw;
+        margin-top: 2vw;
+
+    }
+
+    #serviciosarea{
+
+    padding-bottom: 20px;
+
+    }
+
+    #enlaceservicios > a{
+  
+        color: #000000;
+        text-decoration: none;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        width: 14em;
+        height: 2.5em;
+        font-size: 1.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+        margin-top: 2vw;
+    }
+
+    #enlaceservicios > a:hover{
+
+        font-size: 1.6vw;
+        
+
+    }
+
+
+    #experienciaConsulta{
+  
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      
+    }
+
+ 
+    #telefonoConsultas{
+          
+        display: none;
+        
+    }
+      
+    #telconsulta{
+      
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #000000;
+        border-radius: 5px;
+        width: 17em;
+        height: 3em;
+        font-size: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: normal;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+        margin-left: 80px;
+
+       
+          
+    }
+
+    #telconsulta:hover{
+
+        font-size: 1.05vw;
+
+    }
+      
+    #experienciaConsulta > p{
+      
+        font-size: 1.5vw;
+    
+    }
+
+    #sobrenosotrosarea{
+
+        padding-bottom: 35px;
+      
+    }
+      
+    #sobrenosotrostitle{
+      
+      padding-top: 30px;
+      margin-bottom: 50px;
+      font-size: 1.5rem;
+      
+    }
+      
+    #sobrenosotrostext > p{
+      
+        color: #ffffff;
+        font-size: 1.1rem;
+        width: 60%;
+        margin-bottom: 50px;
+      
+    }
+      
+    #sobrenosotrosimg > img{
+      
+        margin-top: 20px ;
+        width: 27vw;
+        height: 15vw;
+        
+    }
 
 }
-
