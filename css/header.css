@@ -1,0 +1,21 @@
+.header{
+  
+    color: white;
+    
+
+    display: grid;
+    grid-template-areas: 'titulo menu';
+    grid-template-columns: 90% auto;
+
+}
+
+#itleHeader{
+    grid-area: titulo;
+    
+
+}
+
+#menuHeader{
+    grid-area: menu;
+
+}
