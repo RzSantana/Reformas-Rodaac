@@ -2,14 +2,14 @@
     
     height: 42vw;
     color: white;
-    
-    background-image: url("../img/fondo.jpeg");
+    background-image: url("../img/construccion.png");
     /* background-position: cover; */
     background-repeat: no-repeat;
     background-size: cover;
     
     
 }
+
 .difumindado{
     padding: 4.206% 7.944% 4.206% 7.944%;
     height: 2em;
