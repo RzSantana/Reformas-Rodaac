@@ -1,21 +1,42 @@
 .header{
-  
+    
+    height: 42vw;
     color: white;
     
+    background-image: url('https://images.pexels.com/photos/7512031/pexels-photo-7512031.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.difumindado{
+    padding: 4.206% 7.944% 4.206% 7.944%;
+    height: 2em;
+    align-items: center;
 
     display: grid;
     grid-template-areas: 'titulo menu';
-    grid-template-columns: 90% auto;
+    grid-template-columns: 83% auto;
 
+    background-color: rgba(31, 31, 37, 0.85);
 }
 
-#itleHeader{
+
+#titleHeader{
     grid-area: titulo;
-    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
 
 }
 
 #menuHeader{
     grid-area: menu;
+    display: flex;
+    justify-content: center;
 
+}
+#menuHeader > i{
+    font-size:17px
 }
