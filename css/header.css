@@ -3,7 +3,7 @@
     height: 42vw;
     color: white;
     
-    background-image: url('https://images.pexels.com/photos/7512031/pexels-photo-7512031.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url("https://images.pexels.com/photos/7512031/pexels-photo-7512031.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
     /* background-position: cover; */
     background-repeat: no-repeat;
     background-size: cover;
