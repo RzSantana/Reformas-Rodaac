@@ -1,6 +1,7 @@
 .header{
     
-    height: 42vw;
+    /* height: 42vw; */
+
     color: white;
     background-image: url("../img/fondo.jpeg");
     /* background-position: cover; */
@@ -11,7 +12,8 @@
 }
 
 .difumindado{
-    padding: 4.206% 7.944% 4.206% 7.944%;
+    padding: 4% 12% 0 12%;
+    /* padding: 4.206% 7.944% 4.206% 7.944%; */
     height: 2em;
     align-items: center;
 
