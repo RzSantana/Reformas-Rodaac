@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    cursor: pointer;
     
     
 }
@@ -26,6 +25,12 @@
     grid-template-columns: 85% 15%;
     
 }
+#bottomHeader > a {
+    width: max-content;
+    text-decoration: none;
+    color: white;
+
+}
 
 
 #titleHeader{
@@ -33,6 +38,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 1.3rem;
+
     
 }
 
