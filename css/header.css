@@ -2,9 +2,9 @@
     
     height: 60vw;
     color: white;
-    background-image: url("../img/fondo.jpg");
+    background-image: url("../img/fondo.jpeg");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
     background-size: cover;
     
     
@@ -145,6 +145,7 @@
 
     }
     #izquierdaSocialHeader > p{
+        cursor: default;
         font-size: 12px;
 
     }
@@ -164,6 +165,7 @@
 
     }
     #derechaSocialHeader > p{
+        cursor: default;
         font-size: 12px;
 
     }

@@ -133,7 +133,7 @@ display: none;
   
 #pladur{
   
-    background-image: url(./pladur.jpg); 
+    background-image: url('../img/pladur.jpg'); 
     background-size: cover;
     background-position:center;
 }
@@ -156,7 +156,7 @@ display: none;
 #montaje{
   
   
-  background-image: url(./montaje.jpg); 
+  background-image: url('../img/montaje.jpeg'); 
   background-size:cover;
   background-position:center;
   
@@ -180,14 +180,14 @@ display: none;
   
 #chapado{
   
-    background-image: url(./chapado.jpg); 
+    background-image: url('../img/chapado.jpg'); 
     background-size:cover;
     background-position:center;
 }
   
 #otros{
   
-    background-image: url(./barnizado.jpg); 
+    background-image: url('../img/otros.jpg'); 
     background-size:cover;
     background-position:center;
 }
@@ -220,7 +220,7 @@ display: none;
 
 #sobreNosotrosArea{
     display: grid;
-    grid-template-areas: sobreno;
+    grid-template-areas: '';
 
     justify-content: center;
     justify-items: center;
@@ -231,7 +231,7 @@ display: none;
   
 }
   
-#sobreNosotrosArea > div{
+#sobreNosotros > div{
   
   width: 100%;
   display: flex;
@@ -328,8 +328,9 @@ footer > div{
 
     .svc:hover > a{
         font-weight: 600;
-        box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.25);
-    
+        box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.25);
+        
+        
     }
     
     .svc:hover{
@@ -415,7 +416,7 @@ footer > div{
     
     }
 
-    #sobreNosotrosArea{
+    #sobreNosotros{
 
         padding-bottom: 35px;
       
