@@ -100,7 +100,7 @@ display: none;
     
     font-size: 6vw;
     color: white;
-    padding: 0 0 15px 0;
+    padding: 15px 0 15px 0;
 }
   
   
@@ -196,7 +196,7 @@ display: none;
 #enlaceServicios{
 
     width: 100%;
-    margin-top: 50px;
+    margin: 40px 0 100px 0;
     display: flex;
     justify-content: center;
     align-items: center;  
