@@ -1,0 +1,523 @@
+/* normalización de elementos */
+html { scroll-behavior: smooth; width: 100%;}
+*{margin: 0px; padding: 0px;}
+body{
+  background-color: #2B2A33;
+  font-family: 'Raleway', sans-serif;
+}
+
+.consulta{
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 30vw;
+    background-color: #FFFFFF ;
+    justify-content: center;
+  
+}
+  
+#experienciaConsulta{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+  
+#telconsulta{
+
+display: none;
+
+}
+
+#telefonoConsultas{
+      
+    width: 100%;
+    height:50%; 
+    display: flex;
+    justify-content: center;
+    align-items: start;  
+    
+}
+  
+#telefonoConsultas > a{
+  
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 5px;
+    width: 35.684vw;
+    height: 8.333vw;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+      
+}
+  
+#experienciaConsulta > p{
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+#enlaceArea{
+
+    margin-top: 47px;
+    margin-bottom: 18px;
+    
+}
+  
+#sdiv{
+    
+    display: grid;
+    grid-template-columns: 40vw 40vw ;
+    grid-template-rows:40vw 40vw 40vw 40vw;
+    row-gap: 18px;
+    column-gap: 14px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 20px 0 24px 0;
+  
+}
+  
+#servicios{
+  
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+  
+}
+  
+#servicios h2{
+    
+    font-size: 4.5vw;
+    color: white;
+    padding: 0 0 15px 0;
+}
+  
+  
+.svc{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 41.121vw; 
+    height: 41.121vw;
+    
+}
+
+.svc a{
+    
+    color: #ffffff;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+  
+}
+  
+#pladur{
+  
+    background-image: url('../img/pladur.jpg'); 
+    background-size: cover;
+    background-position:center;
+}
+  
+#construccion{
+
+    background-image: url('../img/construccion.png'); 
+    background-size:cover;
+    background-position:center;
+}
+  
+#enlucido{
+  
+  background-image: url('../img/enlucido.png');
+  background-size:cover;
+  background-position:center;
+  
+}
+
+#montaje{
+  
+  
+  background-image: url('../img/montaje.jpeg'); 
+  background-size:cover;
+  background-position:center;
+  
+}
+
+#fontaneria{
+  
+  background-image: url('../img/fontaneria.png'); 
+  background-size:cover;
+  background-position:center;
+  
+}
+
+#pintura{
+  
+  background-image: url('../img/pintura.png');
+  background-size:cover;
+  background-position:center;
+  
+}
+  
+#chapado{
+  
+    background-image: url('../img/chapado.jpg'); 
+    background-size:cover;
+    background-position:center;
+}
+  
+#otros{
+  
+    background-image: url('../img/otros.jpg'); 
+    background-size:cover;
+    background-position:center;
+}
+
+
+#enlaceServicios{
+
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  
+}
+  
+#enlaceServicios > a{
+  
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 35.684vw;
+    height: 8.333vw;
+    font-size: 0.563rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+#area{
+    display: grid;
+    grid-template-areas:    'sobreNosotrosArea'
+                            'contactoArea';
+
+}
+#sobreNosotrosArea{
+    grid-area: sobreNosotrosArea;
+
+    justify-content: center;
+    justify-items: center;
+    background-color: #31303A;
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    padding: 50px 0 0 0;
+  
+}
+#sobreNosotrosArea > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+#sobreNosotrosTitle{
+    color: #ffffff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  
+} 
+#sobreNosotrosText > p{
+  
+    color: #ffffff;
+    font-size: 1rem;
+    width: 70%;
+  
+}
+
+
+#contactoArea{
+    grid-area: contactoArea;
+    
+    justify-content: center;
+    justify-items: center;
+    background-color: #31303A;
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    padding: 50px 0 50px 0;
+    
+}
+#contactoArea > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+#contactoTitle{
+    grid-area: contactoTitle;
+    color: #ffffff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  
+} 
+#contactoText{
+    grid-area: contactoText;
+    
+} 
+#contactoText > p{
+    color: #ffffff;
+    font-size: 1rem;
+    width: 70%;
+  
+}
+#contactoText > p > a{
+    font-family:Helvetica;
+    color: #ffffff;
+    font-size: 1rem;
+    width: 70%;
+    text-decoration: none;
+
+}
+
+  
+footer{
+  
+    width: 100%;
+    height: 7vh;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  
+}
+  
+footer > div{
+  
+    height: 50%; width: 100%;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #ffffff;
+    
+}
+  
+#creditos1{
+  
+    display: flex;
+    align-items: center;
+  
+}
+  
+#creditos2{
+  
+    display: flex;
+    align-items: start;
+  
+}
+  
+  
+
+
+@media (min-width: 700px){
+
+    #sdiv{
+
+        display: grid;
+        grid-template-columns: 15rem 15rem 15rem 15rem;
+        grid-template-rows: 15rem 15rem;
+        row-gap: 2rem;
+        column-gap: 2rem;
+        margin: 64px 0 100px 0;
+      
+    }
+    .svc{
+        width: 15rem; 
+        height: 15rem;
+
+    }
+
+    .svc > a{
+        font-size: 1.5rem;
+
+    }
+
+    .svc:hover > a{
+        font-weight: 600;
+        box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.25);
+        
+        
+    }
+    
+    .svc:hover{
+        filter: brightness(105%);
+    
+    }
+
+    #servicios h2{
+        font-size: 1.563vw;
+        
+
+    }
+
+    #enlaceArea{
+        margin-top: 96px;
+        margin-bottom: 87px;
+        
+    }
+
+    #enlaceServicios > a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        background-color: #ffffff;
+        border-radius: 5px;
+        width: 15rem;
+        height: 3.0rem;
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: normal;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    #enlaceServicios > a:hover{
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+        
+
+    }
+
+
+    #experienciaConsulta{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+      
+    }
+
+ 
+    #telefonoConsultas{
+        display: none;
+        
+    }
+      
+    #telconsulta{
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #000000;
+        border-radius: 5px;
+        width: 20rem;
+        height: 3.5rem;
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: normal;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+
+    }
+
+    #telconsulta:hover{
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+
+    }
+      
+    #experienciaConsulta > p{
+        font-size: 1.1rem;
+    
+    }
+
+    /* #enlaceServicios{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+      
+    } */
+    #enlaceServicios > a{
+        font-size: 1.1rem;
+    }
+
+
+    #area{
+        display: grid;
+        grid-template-areas: 'sobreNosotrosArea contactoArea';
+        grid-template-columns: 50% 50%;
+        
+    }
+
+    #sobreNosotrosTitle{
+      padding-top: 30px;
+      margin-bottom: 50px;
+      font-size: 1.563vw;
+      font-weight: 600;
+      
+    }
+    #sobreNosotrosText > p{
+    
+        color: #ffffff;
+        font-size: 1.1rem;
+        width: 60%;
+        margin-bottom: 50px;
+      
+    }
+
+    #contactoArea{
+        justify-content:space-around;
+        align-items: center;
+    }  
+    #contactoTitle{
+      padding-top: 30px;
+      margin-bottom: 50px;
+      font-size: 1.563vw;
+      font-weight: 600;
+      
+    }
+    #contactoText > p{
+        color: #ffffff;
+        font-size: 1.1rem;
+        width: 60%;
+        margin-bottom: 50px;
+      
+    }
+    #contactoText > p > a {
+        margin: 0 0 0 10px;
+    }
+    #contactoText > p > a:hover{
+        font-family:Helvetica;
+        color: #ffffff;
+        text-decoration:underline;
+    
+    }
+      
+}
