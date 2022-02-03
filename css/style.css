@@ -339,7 +339,7 @@ footer > div{
   
 }
   
-@media (min-width: 421px){
+@media (min-width: 430px){
     #sdiv{
         display: grid;
         grid-template-columns: 20.66vw 20.66vw 20.66vw 20.66vw ;

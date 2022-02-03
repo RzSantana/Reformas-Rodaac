@@ -23,7 +23,6 @@
     font-size: 25px;
     font-weight: 700;
     justify-content: center;
-    align-items: flex-end;
     width: 100%;
 
 }
@@ -78,13 +77,52 @@
 
 }
 
-@media (min-width: 700px){
+/** Galeria*/
+.serviciosGaleria{
+    margin: 100px 0 0 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    display: grid;
 
-    /* Titulo & descripción de los servicios */
+    grid-template-areas:    'title'
+                            'parrafo';
+    grid-template-columns: 80%;
+
+}
+.serviciosGaleriaTitle{
+    grid-area: 'title';
+    padding : 30px 0 20px 0;
+}
+.serviciosGaleriaTitle > h1{
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: center;
+    width: 100%;
+
+}
+.serviciosGaleriaParrafo{
+    grid-area: 'parrafo';
+    padding : 0 0 30px 0;
+
+}
+.serviciosGaleriaParrafo > p {
+    font-size: 16px;
+
+}
+
+
+
+
+
+@media (min-width: 700px){
+    
+    /** Titulo & descripción de los servicios */
     
     .serviciosHeader{
         grid-template-columns: 35%;
-
+        
     }
     .serviciosHeaderTitle{
         padding : 50px 0 30px 0;
@@ -92,30 +130,30 @@
     }
     .serviciosHeaderTitle > h1{
         font-size: 30px;
-
+        
     }
     .serviciosHeaderParrafo{
         padding : 0 0 50px 0;
-
+        
     }
     .serviciosHeaderParrafo > p {
         font-size: 16px;
-
+        
     }
     .serviciosHeaderContact{
         padding : 0 0 30px 0;
     }
     .serviciosHeaderContact > *{
         font-size: 16px;
-    
+        
     }
-
+    
     /** Servicios */
     .containerServicios{
         display:flex;
         justify-content: center;
         align-items: center;
-
+        
     }
     .serviciosCards{
         width: 60%;
@@ -125,7 +163,7 @@
                                 'enlucido construccion'
                                 'fontaneria pintura'
                                 'chapado otros';
-
+        
         grid-template-columns: 50% 50%;
         
     }
@@ -139,7 +177,7 @@
     }
     .serviciosCards > div > ul > li{
         padding: 0 0 15px 0;
-
+        
     }
     .seviciosCardsPladur{
         grid-area: pladur;
@@ -167,4 +205,11 @@
         grid-area: otros;
     }
     
+}
+
+@media (min-width: 900px) {
+    .serviciosCards{
+        width: 90%;
+    }
+
 }
