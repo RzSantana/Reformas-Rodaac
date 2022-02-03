@@ -1,0 +1,170 @@
+
+/**Titulo & descripción de los servicios */
+
+.serviciosHeader{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+
+    grid-template-areas:    'title'
+                            'parrafo'
+                            'botton';
+    grid-template-columns: 80%;
+
+}
+.serviciosHeaderTitle{
+    grid-area: 'title';
+    padding : 30px 0 20px 0;
+    
+}
+.serviciosHeaderTitle > h1{
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+
+}
+.serviciosHeaderParrafo{
+    grid-area: 'parrafo';
+    padding : 0 0 30px 0;
+
+}
+.serviciosHeaderParrafo > p {
+    font-size: 16px;
+
+}
+.serviciosHeaderContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 0 0 20px 0;
+}
+.serviciosHeaderContact > *{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 5px;
+    width: 15rem;
+    height: 3rem;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+/** Servicios */
+.serviciosCards > *{
+    background-color: #31303a;
+    color: white;
+    margin: 30px 0 30px 0;
+    padding: 50px 0 50px 0;
+    text-align: center;
+
+}
+.serviciosCards > div > ul{
+    margin: 20px 0 0 0;
+    text-align: center;
+    list-style-type:none;
+}
+.serviciosCards > div > ul > li{
+    padding: 0 0 15px 0;
+
+}
+
+@media (min-width: 700px){
+
+    /* Titulo & descripción de los servicios */
+    
+    .serviciosHeader{
+        grid-template-columns: 35%;
+
+    }
+    .serviciosHeaderTitle{
+        padding : 50px 0 30px 0;
+        
+    }
+    .serviciosHeaderTitle > h1{
+        font-size: 30px;
+
+    }
+    .serviciosHeaderParrafo{
+        padding : 0 0 50px 0;
+
+    }
+    .serviciosHeaderParrafo > p {
+        font-size: 16px;
+
+    }
+    .serviciosHeaderContact{
+        padding : 0 0 30px 0;
+    }
+    .serviciosHeaderContact > *{
+        font-size: 16px;
+    
+    }
+
+    /** Servicios */
+    .containerServicios{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .serviciosCards{
+        width: 60%;
+        margin: 100px 0 50px 0;
+        display: grid;
+        grid-template-areas:    'pladur montaje'
+                                'enlucido construccion'
+                                'fontaneria pintura'
+                                'chapado otros';
+
+        grid-template-columns: 50% 50%;
+        
+    }
+    .serviciosCards > *{
+        margin: 30px 30px 30px 30px;
+    }
+    .serviciosCards > div > ul{
+        margin: 20px 0 0 0;
+        text-align: center;
+        list-style-type:none;
+    }
+    .serviciosCards > div > ul > li{
+        padding: 0 0 15px 0;
+
+    }
+    .seviciosCardsPladur{
+        grid-area: pladur;
+    }
+    .seviciosCardsMontaje{
+        grid-area: montaje;
+    }
+    .seviciosCardsEnlucido{
+        grid-area: enlucido;
+    }
+    .seviciosCardsConstrucción{
+        grid-area: construccion;
+    }
+    .seviciosCardsFontanería{
+        grid-area: fontaneria;
+    }
+    .seviciosCardsPintura{
+        grid-area: pintura;
+    }
+    
+    .seviciosCardsChapado{
+        grid-area: chapado;
+    }
+    .seviciosCardsOtros{
+        grid-area: otros;
+    }
+    
+}
